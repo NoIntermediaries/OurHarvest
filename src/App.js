@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
+import NavBar from "./NavBar.js";
+import Home from "./Home.js"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <h1>Our Harvest</h1>
-      </header>
+      <NavBar />
+      <Home />
     </div>
   );
 }
