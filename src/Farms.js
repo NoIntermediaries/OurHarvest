@@ -4,7 +4,7 @@ import './Farms.css';
 function Farms() {
   return (
     <div className="farms">
-      Test
+      <span>Farms List</span>
     </div>
   );
 }
