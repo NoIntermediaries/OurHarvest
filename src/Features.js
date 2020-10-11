@@ -4,7 +4,7 @@ import Feature from './Feature';
 
 function Features() {
   return (
-    <div class="row feat">
+    <div className="row feat">
       <Feature />
       <Feature />
       <Feature />
