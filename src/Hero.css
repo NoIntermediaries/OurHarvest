@@ -2,7 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1461354464878-ad92f492a5a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=clamp&h=1350&q=60") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1461354464878-ad92f492a5a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=clamp&h=1350&q=60") no-repeat center center/cover;
+  border-top: 2px solid rgba(22, 61, 6, 0.3);
+  border-bottom: 2px solid rgba(22, 61, 6, 0.3);
   color: rgb(22, 61, 6);
   height: 80vh;
   margin: 50px 0;

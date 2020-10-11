@@ -3,7 +3,9 @@ import './Farms.css';
 
 function Farms() {
   return (
-    
+    <div className="farms">
+      Test
+    </div>
   );
 }
 
