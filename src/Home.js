@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import Feature from './Feature';
 
 function Home() {
     return (
@@ -7,21 +8,9 @@ function Home() {
             <h1 className="title">Veggis had never been so fresh</h1>
             <p className="subtitle">Our Harvest will show you your closest farm where you can get fresh and bio veggetables direct from the field</p>
             <div class="row feat">
-                <div class="col s4">
-                    <i class="material-icons medium">store</i> <br/>
-                    <h6><strong>Promo Content 1 goes here</strong></h6>
-                    <p className="desc">lorem aldmkjqandknewfi oidnqiefniwenfobweinf sfoisnofn sowj wfiowfoiwjoifjwoubfiuwng owifnownfiuwnoignwign  oisfnow</p>
-                </div>
-                <div class="col s4">
-                    <i class="material-icons medium">group</i> <br/>
-                    <h6><strong>Promo Content 2 goes here</strong></h6>
-                    <p className="desc">lorem aldmkjqandknewfi oidnqiefniwenfobweinf sfoisnofn sowj wfiowfoiwjoifjwoubfiuwng owifnownfiuwnoignwign  oisfnow</p>
-                </div>
-                <div class="col s4">
-                    <i class="material-icons medium">landscape</i> <br/>
-                    <h6><strong>Promo Content 3 goes here</strong></h6>
-                    <p className="desc">lorem aldmkjqandknewfi oidnqiefniwenfobweinf sfoisnofn sowj wfiowfoiwjoifjwoubfiuwng owifnownfiuwnoignwign  oisfnow</p>
-                </div>
+                <Feature />
+                <Feature />
+                <Feature />
             </div>
 
 
