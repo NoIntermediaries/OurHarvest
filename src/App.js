@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
-import NavBar from './NavBar';
-import Home from './Home';
-import Farms from './Farms';
-import Contact from './Contact';
-import Footer from './Footer';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
+import Farms from './components/Farms';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
