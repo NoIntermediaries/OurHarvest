@@ -1,10 +1,14 @@
 import React from 'react';
 import './Farms.css';
+import FarmCard from './FarmCard';
 
 function Farms() {
   return (
     <div className="farms">
-      <span>Farms List</span>
+      <FarmCard />
+      <FarmCard />
+      <FarmCard />
+      <FarmCard />
     </div>
   );
 }

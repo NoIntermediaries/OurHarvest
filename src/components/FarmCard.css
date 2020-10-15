@@ -1,0 +1,23 @@
+.farm-card {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgb(21, 49, 10);
+  border-radius: 15px;
+  width: 250px;
+  margin: 20px;
+}
+
+.farm-info {
+  width: 200px;
+  /* margin: 0 10px; */
+}
+
+.farm-img {
+  width: 200px;
+  height: 150px;
+  margin-top: 15px;
+  border: 1px solid rgb(21, 49, 10);
+  border-radius: 15px;
+}
