@@ -1,9 +1,9 @@
 import React from 'react';
-import './FarmBlock.css';
+import './FarmCard.css';
 
-function FarmBlock() {
+function FarmCard() {
   return (
-    <div className="farm-block">
+    <div className="farm-card">
       <img className="farm-img" src="" alt="" />
       <h3 className="farm-title">Test's Farm</h3>
       <p className="farm-info">lorem lorem lorem</p>
