@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# freshVeggis
+# OurHarvest
 This it the main branch. The project is in the master branch
 =======
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
