@@ -1,0 +1,8 @@
+.farm-box {
+    align-content: center;
+    width: 1000px;
+    margin: 50px auto;
+    border: 3px solid rgb(21, 49, 10);
+    border-radius: 15px;
+    padding: 20px;
+}
