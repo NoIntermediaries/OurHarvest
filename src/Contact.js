@@ -31,9 +31,8 @@ class Contact extends Component {
   render() {
     return (
       <div className="container_contact">
-        <div className="contact-image"></div>
         <div className="contact-heading">
-          <h2>Contact Us</h2>
+          <h3>Contact Us</h3>
           <p>Please enter your details below:</p>
         </div>
 
