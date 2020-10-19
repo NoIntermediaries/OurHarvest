@@ -4,7 +4,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Farms from './components/Farms';
-import Contact from './Contact';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
