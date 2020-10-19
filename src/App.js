@@ -4,7 +4,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Farms from './components/Farms';
-import Contact from './components/Contact';
+import Contact from './Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/farms' component={Farms} />
-            <Route path='/contact' component={Contact} />
+            <Route path='/Contact' component={Contact} />
           </Switch>
         </div>
         <Footer />

@@ -1,0 +1,22 @@
+.container_contact {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(85, 107, 47);
+  /* height: 80vh; */
+  margin: 50px 0;
+}
+
+.contact-heading {
+  color: white;
+}
+.formbox {
+  position: relative;
+  background: whitesmoke;
+  width: 360px;
+  margin: 10px auto;
+  padding: 10px 30px;
+  text-align: center;
+  font-weight: bold;
+  box-sizing: border-box;
+}
