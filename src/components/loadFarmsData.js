@@ -8,7 +8,7 @@ export const sampleFarms = [
     phone: '123456789',
     email: 'farmone@farmone.site',
     website: 'farmone.site',
-    products: ['apples', 'potatoes', 'pears'],
+    products: ['tomatoes', 'bananas', 'apples'],
     image: 'https://images.unsplash.com/photo-1534073133331-c4b62a557083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60'
   },
   {
@@ -32,7 +32,7 @@ export const sampleFarms = [
     phone: '123456789',
     email: 'farmone@farmone.site',
     website: 'farmone.site',
-    products: ['apples', 'potatoes', 'pears'],
+    products: ['onions', 'cucumbers', 'broccoli'],
     image: 'https://images.unsplash.com/photo-1562046720-654495889645?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60'
   },
   {
@@ -44,7 +44,7 @@ export const sampleFarms = [
     phone: '123456789',
     email: 'farmone@farmone.site',
     website: 'farmone.site',
-    products: ['apples', 'potatoes', 'pears'],
+    products: ['turnips', 'lettuces', 'pineapples'],
     image: 'https://images.unsplash.com/photo-1486754735734-325b5831c3ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=60'
   },
   {
@@ -56,7 +56,7 @@ export const sampleFarms = [
     phone: '123456789',
     email: 'farmone@farmone.site',
     website: 'farmone.site',
-    products: ['apples', 'potatoes', 'pears'],
+    products: ['garlics', 'potatoes', 'onions'],
     image: 'https://images.unsplash.com/photo-1585499193151-0f50d54c4e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60'
   },
 ];
