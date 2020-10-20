@@ -1,12 +1,12 @@
 .farm-card {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   border: 3px solid rgb(21, 49, 10);
   border-radius: 15px;
   width: 250px;
-  margin: 20px;
+  margin: 0 20px 20px 0;
   background-color: rgba(158, 218, 124, 0.8);
 }
 

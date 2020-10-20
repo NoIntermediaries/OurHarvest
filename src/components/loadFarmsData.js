@@ -59,4 +59,76 @@ export const sampleFarms = [
     products: ['garlics', 'potatoes', 'onions'],
     image: 'https://images.unsplash.com/photo-1585499193151-0f50d54c4e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60'
   },
+  {
+    name: 'Farm Five',
+    address: 'Somewhere 23',
+    city: 'Berlin',
+    country: 'Germany',
+    distance: '1km',
+    phone: '123456789',
+    email: 'farmone@farmone.site',
+    website: 'farmone.site',
+    products: ['garlics', 'potatoes', 'onions'],
+    image: 'https://images.unsplash.com/photo-1585499193151-0f50d54c4e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60'
+  },
+  {
+    name: 'Farm Five',
+    address: 'Somewhere 23',
+    city: 'Berlin',
+    country: 'Germany',
+    distance: '1km',
+    phone: '123456789',
+    email: 'farmone@farmone.site',
+    website: 'farmone.site',
+    products: ['garlics', 'potatoes', 'onions'],
+    image: 'https://images.unsplash.com/photo-1585499193151-0f50d54c4e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60'
+  },
+  {
+    name: 'Farm Five',
+    address: 'Somewhere 23',
+    city: 'Berlin',
+    country: 'Germany',
+    distance: '1km',
+    phone: '123456789',
+    email: 'farmone@farmone.site',
+    website: 'farmone.site',
+    products: ['garlics', 'potatoes', 'onions'],
+    image: 'https://images.unsplash.com/photo-1585499193151-0f50d54c4e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60'
+  },
+  {
+    name: 'Farm Five',
+    address: 'Somewhere 23',
+    city: 'Berlin',
+    country: 'Germany',
+    distance: '1km',
+    phone: '123456789',
+    email: 'farmone@farmone.site',
+    website: 'farmone.site',
+    products: ['garlics', 'potatoes', 'onions'],
+    image: 'https://images.unsplash.com/photo-1585499193151-0f50d54c4e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60'
+  },
+  {
+    name: 'Farm Five',
+    address: 'Somewhere 23',
+    city: 'Berlin',
+    country: 'Germany',
+    distance: '1km',
+    phone: '123456789',
+    email: 'farmone@farmone.site',
+    website: 'farmone.site',
+    products: ['garlics', 'potatoes', 'onions'],
+    image: 'https://images.unsplash.com/photo-1585499193151-0f50d54c4e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60'
+  },
+  {
+    name: 'Farm Five',
+    address: 'Somewhere 23',
+    city: 'Berlin',
+    country: 'Germany',
+    distance: '1km',
+    phone: '123456789',
+    email: 'farmone@farmone.site',
+    website: 'farmone.site',
+    products: ['garlics', 'potatoes', 'onions'],
+    image: 'https://images.unsplash.com/photo-1585499193151-0f50d54c4e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60'
+  }
 ];
