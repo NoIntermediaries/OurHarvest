@@ -22,3 +22,8 @@
   border: 1px solid rgb(21, 49, 10);
   border-radius: 15px;
 } */
+
+.card-image img {
+  height: 150px;
+  overflow: hidden;
+}
