@@ -14,17 +14,13 @@
   font-weight: 600;
   padding-top: 3em;
   font-size: 5rem;
-  -webkit-text-fill-color: #DBECC7; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: rgb(22, 61, 6);
+  color: white;
 }
 
 .subtitle {
   padding-bottom: 200px;
   font-size: 1.5em;
   font-weight: 600;
-  -webkit-text-fill-color:  #DBECC7; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color:rgb(22, 61, 6);
+  color: white;
 }
 
