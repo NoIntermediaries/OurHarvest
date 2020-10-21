@@ -2,7 +2,7 @@ import React from 'react';
 import './FarmCard.css';
 
 export default function FarmCard(props) {
-  
+
   const {
     id,
     image,
@@ -13,15 +13,21 @@ export default function FarmCard(props) {
   } = props;
 
   const productSpaced = products.join(', ');
-  
+
   return (
-    <div className="farm-card">
-      <img className="farm-img" src={image} alt="" />
-      <div className="farm-info">
-        <h4 className="farm-title">{name}</h4>
-        <h6 className="farm-details">{address}</h6>
-        <p className="farm-distance">{distance}</p>
-        <p className="farm-products">{productSpaced}</p>
+    <div className="row">
+      <div className="col s12 m12">
+        <div className="card">
+          <div className="card-image">
+            <img src={image} />
+          </div>
+            <div className="card-title">{name}</div>
+          <div class="card-content">
+            <h6>{address}</h6>
+            <p>{distance}</p>
+            <p>{productSpaced}</p>
+          </div>
+        </div>
       </div>
     </div>
   );
