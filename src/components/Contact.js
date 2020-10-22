@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Contact.css";
+import axios from 'axios'
 
 class Contact extends Component {
   constructor(props) {
@@ -26,7 +27,22 @@ class Contact extends Component {
 //On Submitting the form
   handleSubmit = (e) => {
     e.preventDefault();
+
+    //for connecting to back-end
+    const userN = {
+      firstName: this.state.firstName,
+      lastName: this.state.lastName,
+      phone: this.state.phone,
+      email: this.state.email,
+      message: this.state.message,
+    };
     console.log(this.state);
+
+    axios.post("http://localhost:5000/users/add", userN).then((res) => {
+      console.log(res.data);
+    });
+
+    //to set the fields blank after submitting
     this.setState({
       firstName: "",
       lastName: "",
