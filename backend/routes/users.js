@@ -12,8 +12,8 @@ router.get("/", (req, res) => {
 });
 
 router.post("/add", (req, res) => {
-  //console.log(req.body);
-
+  
+  delete req.body._id;
   const username = {
     firstName: req.body.firstName,
     lastName: req.body.lastName,
@@ -23,17 +23,16 @@ router.post("/add", (req, res) => {
   };
 
   const newUser = new User(username);
-  //console.log(newUser);
+  
 
   newUser.save(function (err) {
     if (err) {
       console.log(err);
       return;
     }
-
+    
     res.json({
-      user: newUser,
-      body: "User added",
+      new: "User added",
     });
   });
 });
