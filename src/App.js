@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Farms from './components/Farms';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FarmDetail from './components/FarmDetail';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route exact path='/' component={Home} />
             <Route path='/farms' component={Farms} />
             <Route path='/Contact' component={Contact} />
+            <Route path='/FarmDetail' component={FarmDetail} />
           </Switch>
         </div>
         <Footer />

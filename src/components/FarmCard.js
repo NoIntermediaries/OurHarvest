@@ -1,5 +1,6 @@
 import React from 'react';
 import './FarmCard.css';
+import {NavLink} from "react-router-dom";
 
 export default function FarmCard(props) {
 
@@ -21,7 +22,7 @@ export default function FarmCard(props) {
           <div className="card-image">
             <img src={image} />
           </div>
-            <div className="card-title">{name}</div>
+            <div className="card-title"><NavLink to="/FarmDetail">{name}</NavLink></div>
           <div class="card-content">
             <h6>{address}</h6>
             <p>{distance}</p>
