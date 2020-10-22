@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import './FarmDetail.css';
 
-class FarmDetail extends Component {
 
-    render() {
+    function FarmDetail() {
 
         return(
             <div className="farm-box">
@@ -11,7 +10,7 @@ class FarmDetail extends Component {
                 <div className="farm-info">
                     <h4 className="farm-title">Fantasy Farm Name</h4>
                     <h6 className="farm-address">Fantasy Street 11, 12345 Fantasy Town</h6>
-                    <h6 className="farm-products">apples, potatos</h6>
+                    <h6 className="farm-products">Products: apples, potatos</h6>
                     <p className="farm-descr">This is a general description of the farm. We are a family-led farm south of 
                     Fantasy Town. Feeling fed up with the busy city life? Come visit us and learn about our organically grown
                     veggies and fruits. You will never want to buy anything at a supermarket ever again! If you have any questions
@@ -21,6 +20,6 @@ class FarmDetail extends Component {
             </div>
         );
     }
-}
+
 
 export default FarmDetail;

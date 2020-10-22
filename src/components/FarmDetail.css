@@ -2,7 +2,22 @@
     align-content: center;
     width: 1000px;
     margin: 50px auto;
-    border: 3px solid rgb(21, 49, 10);
-    border-radius: 15px;
-    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.farm-img {
+    max-width:100%;
+    height:auto;
+}
+
+.farm-info {
+    padding: 50px;
+}
+
+.farm-title {
+    margin: 0 0 20px 0;
+}
+
+.farm-products {
+    margin: 0 0 20px 0;
 }
