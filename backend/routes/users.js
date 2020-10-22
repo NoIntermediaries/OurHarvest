@@ -12,7 +12,7 @@ router.get("/", (req, res) => {
 });
 
 router.post("/add", (req, res) => {
-  console.log(req.body);
+  //console.log(req.body);
 
   const username = {
     firstName: req.body.firstName,
@@ -23,7 +23,7 @@ router.post("/add", (req, res) => {
   };
 
   const newUser = new User(username);
-  console.log(newUser);
+  //console.log(newUser);
 
   newUser.save(function (err) {
     if (err) {
