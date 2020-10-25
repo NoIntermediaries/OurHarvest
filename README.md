@@ -28,10 +28,11 @@ Install dependencies for the backend server
 ### `npm run backend`
 
 Run the Express server only
+Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
 ### `npm run dev`
 
-Run the client & server with concurrently
+Run the client(front-end) & server(back-end) with concurrently
 
 ### `npm test`
 
