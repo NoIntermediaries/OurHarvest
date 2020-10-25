@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Contact.css";
-import axios from 'axios'
+import axios from "axios";
 
 class Contact extends Component {
   constructor(props) {
@@ -20,11 +20,11 @@ class Contact extends Component {
   //value is the content inputted by the user
   handleChange(field, value) {
     this.setState({
-      [field]:value,
-    })
+      [field]: value,
+    });
   }
 
-//On Submitting the form
+  //On Submitting the form
   handleSubmit = (e) => {
     e.preventDefault();
 
@@ -52,7 +52,6 @@ class Contact extends Component {
     });
   };
 
-  
   render() {
     return (
       <div className="container_contact">
@@ -60,63 +59,67 @@ class Contact extends Component {
           <h3>Contact Us</h3>
           <p>Please enter your details below:</p>
         </div>
+          <div className="formbox">
+            <form onSubmit={this.handleSubmit}>
+              <div className="row input-field s6">
+                <label htmlFor="firstname">First Name</label>
+                <input
+                  type="text"
+                  value={this.state.firstName}
+                  onChange={(e) =>
+                    this.handleChange("firstName", e.target.value)
+                  }
+                />
+              </div>
 
-        <div className="formbox">
-          <form onSubmit={this.handleSubmit}>
-            <div className="row input-field s6">
-              <label htmlFor="firstname">First Name</label>
-              <input
-                type="text"
-                value={this.state.firstName}
-                onChange={(e) => this.handleChange('firstName',e.target.value)}
-              />
-            </div>
+              <div className="row input-field s6">
+                <label htmlFor="lastname">Last Name</label>
+                <input
+                  type="text"
+                  value={this.state.lastName}
+                  onChange={(e) =>
+                    this.handleChange("lastName", e.target.value)
+                  }
+                />
+              </div>
 
-            <div className="row input-field s6">
-              <label htmlFor="lastname">Last Name</label>
-              <input
-                type="text"
-                value={this.state.lastName}
-                onChange={(e) => this.handleChange('lastName',e.target.value)}
-              />
-            </div>
+              <div className="row input-field s6">
+                <label htmlFor="phone">Phone no:</label>
+                <input
+                  type="text"
+                  value={this.state.phone}
+                  onChange={(e) => this.handleChange("phone", e.target.value)}
+                />
+              </div>
 
-            <div className="row input-field s6">
-              <label htmlFor="phone">Phone no:</label>
-              <input
-                type="text"
-                value={this.state.phone}
-                onChange={(e) => this.handleChange('phone',e.target.value)}
-              />
-            </div>
+              <div className="row input-field s6">
+                <label htmlFor="email">Email:</label>
+                <input
+                  type="email"
+                  value={this.state.email}
+                  className="validate"
+                  onChange={(e) => this.handleChange("email", e.target.value)}
+                />
+              </div>
 
-            <div className="row input-field s6">
-              <label htmlFor="email">Email:</label>
-              <input
-                type="email"
-                value={this.state.email}
-                className="validate"
-                onChange={(e) => this.handleChange('email',e.target.value)}
-              />
-            </div>
+              <div className="row input-field s6">
+                <label htmlFor="message">Message(optional):</label>
+                <textarea
+                  type="text"
+                  value={this.state.message}
+                  className="materialize-textarea"
+                  onChange={(e) => this.handleChange("message", e.target.value)}
+                ></textarea>
+              </div>
 
-            <div className="row input-field s6">
-              <label htmlFor="message">Message(optional):</label>
-              <textarea
-                type="text"
-                value={this.state.message}
-                className="materialize-textarea"
-                onChange={(e) => this.handleChange('message',e.target.value)}
-              ></textarea>
-            </div>
-
-            <button className="btn waves-effect waves-light">
-              Submit
-              <i className="material-icons right">send</i>
-            </button>
-          </form>
+              <button className="btn waves-effect waves-light">
+                Submit
+                <i className="material-icons right">send</i>
+              </button>
+            </form>
+          </div>
         </div>
-      </div>
+      
     );
   }
 }
