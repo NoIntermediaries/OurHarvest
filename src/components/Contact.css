@@ -1,17 +1,20 @@
 .container_contact {
+  display: block;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background: linear-gradient(rgba(156, 128, 128, 0.2), rgba(0, 0, 0, 0.2)),
     url("https://images.unsplash.com/photo-1560493676-04071c5f467b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80")
       no-repeat center center/cover;
-  -webkit-background-size: cover;
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover/contain;
-  resize: both;
-  margin:0;
-  padding:20px;
+  -o-background-size: cover; */
+  /* background-size: cover; */
+  /* resize: both; */
+  margin: 0;
+  padding: 20px;
   min-height: 80vh;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 .contact-heading {
   color: white;
@@ -21,7 +24,8 @@
   justify-content: center;
   position: center;
   background: whitesmoke;
-  width: 360px;
+  /* width: 360px; */
+  max-width: 360px;
   margin: 10px auto;
   margin-bottom: 40px;
   padding: 10px 30px 20px 30px;
