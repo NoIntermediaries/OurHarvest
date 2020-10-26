@@ -7,7 +7,7 @@
   display: flex;
   flex-flow: column wrap;
   /* NEEDS FIXING */
-  min-height: calc(100vh - 271px);
+  /* min-height: calc(100vh - 271px); */
 }
 
 @media (prefers-reduced-motion: no-preference) {

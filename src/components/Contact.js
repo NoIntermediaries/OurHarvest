@@ -58,7 +58,7 @@ class Contact extends Component {
         <div className="contact-heading">
           <h3>Contact Us</h3>
           <p>Please enter your details below:</p>
-        </div>
+
           <div className="formbox">
             <form onSubmit={this.handleSubmit}>
               <div className="row input-field s6">
@@ -119,7 +119,7 @@ class Contact extends Component {
             </form>
           </div>
         </div>
-      
+      </div>
     );
   }
 }
