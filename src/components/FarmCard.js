@@ -25,7 +25,7 @@ export default function FarmCard(props) {
           <Link to={"/" + id}>
             <div className="card-title">{name}</div>
             </Link>
-          <div class="card-content">
+          <div className="card-content">
             <h6>{address}</h6>
             <p>{distance}</p>
             <p>{productSpaced}</p>
