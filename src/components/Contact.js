@@ -65,6 +65,7 @@ class Contact extends Component {
                 <label htmlFor="firstname">First Name</label>
                 <input
                   type="text"
+                  id="firstname"
                   value={this.state.firstName}
                   onChange={(e) =>
                     this.handleChange("firstName", e.target.value)
@@ -76,6 +77,7 @@ class Contact extends Component {
                 <label htmlFor="lastname">Last Name</label>
                 <input
                   type="text"
+                  id="lastname"
                   value={this.state.lastName}
                   onChange={(e) =>
                     this.handleChange("lastName", e.target.value)
@@ -87,6 +89,7 @@ class Contact extends Component {
                 <label htmlFor="phone">Phone no:</label>
                 <input
                   type="text"
+                  id="phone"
                   value={this.state.phone}
                   onChange={(e) => this.handleChange("phone", e.target.value)}
                 />
@@ -96,6 +99,7 @@ class Contact extends Component {
                 <label htmlFor="email">Email:</label>
                 <input
                   type="email"
+                  id="email"
                   value={this.state.email}
                   className="validate"
                   onChange={(e) => this.handleChange("email", e.target.value)}
@@ -106,6 +110,7 @@ class Contact extends Component {
                 <label htmlFor="message">Message(optional):</label>
                 <textarea
                   type="text"
+                  id="message"
                   value={this.state.message}
                   className="materialize-textarea"
                   onChange={(e) => this.handleChange("message", e.target.value)}
