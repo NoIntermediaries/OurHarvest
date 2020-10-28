@@ -1,6 +1,6 @@
 import React from 'react';
 import './FarmCard.css';
-import {NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export default function FarmCard(props) {
 
@@ -18,11 +18,13 @@ export default function FarmCard(props) {
   return (
     <div className="row">
       <div className="col s12 m12">
-        <div className="card">
+        <div className="card" key={id}>
           <div className="card-image">
-            <img src={image} />
+            <img src={image} alt="farmphoto"/>
           </div>
-            <div className="card-title"><NavLink to="/FarmDetail">{name}</NavLink></div>
+          <Link to={"/" + id}>
+            <div className="card-title">{name}</div>
+            </Link>
           <div class="card-content">
             <h6>{address}</h6>
             <p>{distance}</p>
