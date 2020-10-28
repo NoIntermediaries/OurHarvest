@@ -11,8 +11,8 @@ function Footer() {
             <div className="row">
               <div className="col s12">
                 <p>
-                  We help to connect consumers to local farmers <br />
-                  within their communities.
+                  We help to connect consumers to discover and contact <br />
+                  local farmers directly.
                 </p>
               </div>
             </div>
