@@ -1,28 +1,43 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
 function Footer() {
   return (
     <footer className="page-footer #1b5e20 green darken-3">
       <div className="container ">
         <div className="row">
-          <div className="col l6 s12">
-            <h5 className="white-text">Footer Content</h5>
-            <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-          </div>
-          <div className="col l4 offset-l2 s12">
-            <h5 className="white-text">Links</h5>
-            <ul>
-              <li><a className="grey-text text-lighten-3" href="#!">Facebook</a></li>
-              <li><a className="grey-text text-lighten-3" href="#!">Linkedin</a></li>
-            </ul>
+          <div className="col s12">
+            <h5 className="white-text">OUR HARVEST</h5>
+            <div className="row">
+              <div className="col s12">
+                <p>
+                  We help to connect consumers to local farmers <br />
+                  within their communities.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div className="footer-copyright #1b5e20 green darken-4">
         <div className="container">
-          © 2020 Copyright
-          <a className="grey-text text-lighten-4 right" href="#!">We love trees</a>
+          <div className="row">
+            <div className="col s4">
+              <a className="grey-text text-lighten-4 left" href="#!">
+                Imprint and Legal Information
+              </a>
+            </div>
+
+            <div className="grey-text text-lighten-4 col s4">
+              ©2020 OURHARVEST.All rights reserved.
+            </div>
+
+            <div className="col s4">
+              <a className="grey-text text-lighten-4 right" href="#!">
+                Privacy Policy
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
