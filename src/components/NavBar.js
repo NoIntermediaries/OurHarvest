@@ -6,7 +6,7 @@ function NavBar(props) {
     <nav>
       <div className="nav-wrapper #1b5e20 green darken-4 z-depth-3">
         <a href="/#" className="brand-logo center">
-          Our Harvest
+          OurHarvest
         </a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
