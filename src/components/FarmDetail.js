@@ -21,18 +21,19 @@ class FarmDetail extends Component {
       const productSpaced = farms.products.join(", ");
       if (farms.id === this.state.id) {
         return (
+        <div className="container">
           <div className="farm-box" key={farms.id}>
-          <div class="row">
-          <div class="col s12 m7">
-            <div class="card">
-              <div class="card-image detail-img">
+          <div className="row">
+          <div className="col s12">
+            <div className="card">
+              <div className="card-image detail-img center-align">
                 <img src={farms.image} alt="hello" />
-                <span class="card-title">{farms.name}</span>
                 </div>
-              <div class="card-content">
+              <div className="card-content">
                 <div className="farm-info">
-                    <h6 className="farm-address">{farms.address}</h6>
-                    <h6 className="farm-products">{productSpaced}</h6>
+                    <h4 className="farm-name">{farms.name}</h4>
+                    <h6 className="farm-address">location: {farms.address}</h6>
+                    <h6 className="farm-products">products: {productSpaced}</h6>
                     <p className="farm-descr">
                         This is a general description of the farm. We are a family-led
                         farm south of Fantasy Town. Feeling fed up with the busy city
@@ -42,12 +43,13 @@ class FarmDetail extends Component {
                         contact us via phone or email. See you soon!
                     </p>
                     <p className="farm-contact">
-                        {farms.phone}
-                        {farms.email}
+                        phone: {farms.phone} <br/>
+                        email: {farms.email}
                     </p>
                 </div>
                 </div>
             </div>
+          </div>
           </div>
           </div>
           </div>

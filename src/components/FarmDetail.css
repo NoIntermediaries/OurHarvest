@@ -3,14 +3,18 @@
     overflow: hidden;
   }
 
-.farm-info {
-    padding: 50px;
+.farm-name {
+    padding: 0 0 10px 0;
 }
 
-.farm-title {
-    margin: 0 0 20px 0;
+.farm-info {
+    padding: 0px 20px 20px 20px;
 }
 
 .farm-products {
     margin: 0 0 20px 0;
+}
+
+.farm-descr {
+    padding: 0 0 20px 0;
 }
