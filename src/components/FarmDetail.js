@@ -25,9 +25,9 @@ class FarmDetail extends Component {
           <div className="farm-box" key={farms.id}>
           <div className="row">
           <div className="col s12">
-            <div className="card">
-              <div className="card-image detail-img center-align">
-                <img src={farms.image} alt="hello" />
+            <div className="card brown lighten-5">
+              <div className="card-image" className="detail-img center-align">
+                <img src={farms.image} alt="hello"/>
                 </div>
               <div className="card-content">
                 <div className="farm-info">
