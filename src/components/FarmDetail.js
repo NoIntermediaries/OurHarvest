@@ -32,8 +32,8 @@ class FarmDetail extends Component {
               <div className="card-content">
                 <div className="farm-info">
                     <h4 className="farm-name">{farms.name}</h4>
-                    <h6 className="farm-address">location: {farms.address}</h6>
-                    <h6 className="farm-products">products: {productSpaced}</h6>
+                    <h6 className="farm-address">Location: {farms.address}, {farms.city}</h6>
+                    <h6 className="farm-products">Products: {productSpaced}</h6>
                     <p className="farm-descr">
                         This is a general description of the farm. We are a family-led
                         farm south of Fantasy Town. Feeling fed up with the busy city
@@ -43,8 +43,8 @@ class FarmDetail extends Component {
                         contact us via phone or email. See you soon!
                     </p>
                     <p className="farm-contact">
-                        phone: {farms.phone} <br/>
-                        email: {farms.email}
+                        Phone: {farms.phone} <br/>
+                        Email: {farms.email}
                     </p>
                 </div>
                 </div>
