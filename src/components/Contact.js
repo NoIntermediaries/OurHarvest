@@ -36,7 +36,7 @@ class Contact extends Component {
       email: this.state.email,
       message: this.state.message,
     };
-    //console.log(this.state);
+  
 
     axios.post("http://localhost:5000/users/add", userN).then((res) => {
       console.log(res.data);
