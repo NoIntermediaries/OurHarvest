@@ -17,7 +17,7 @@ export default function FarmCard(props) {
 
   return (
     <div className="row">
-      <div className="col s12 m12">
+      <div className="col s12 m12 l12">
         <div className="card" key={id}>
           <div className="card-image">
             <img src={image} alt="farmphoto"/>

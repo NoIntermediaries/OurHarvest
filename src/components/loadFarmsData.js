@@ -1,7 +1,7 @@
 export const sampleFarms = [
   {
     id: "1",
-    name: "Farm One",
+    name: "Sunshine Farm",
     address: "Somewhere 23",
     city: "Berlin",
     country: "Germany",
@@ -10,12 +10,11 @@ export const sampleFarms = [
     email: "farmone@farmone.site",
     website: "farmone.site",
     products: ["tomatoes", "bananas", "apples"],
-    image:
-      "https://images.unsplash.com/photo-1534073133331-c4b62a557083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60",
+    image: require("../img/farms/farm-01.jpg")
   },
   {
     id: "2",
-    name: "Farm Two",
+    name: "Happy Farmer",
     address: "Somewhere 23",
     city: "Berlin",
     country: "Germany",
@@ -23,13 +22,12 @@ export const sampleFarms = [
     phone: "123456789",
     email: "farmone@farmone.site",
     website: "farmone.site",
-    products: ["apples", "potatoes", "pears"],
-    image:
-      "https://images.unsplash.com/photo-1444858291040-58f756a3bdd6?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=60",
+    products: ["cucumbers", "potatoes", "pears"],
+    image: require("../img/farms/farm-02.jpg")
   },
   {
     id: "3",
-    name: "Farm Three",
+    name: "Greensleeves",
     address: "Somewhere 23",
     city: "Berlin",
     country: "Germany",
@@ -37,13 +35,12 @@ export const sampleFarms = [
     phone: "123456789",
     email: "farmone@farmone.site",
     website: "farmone.site",
-    products: ["onions", "cucumbers", "broccoli"],
-    image:
-      "https://images.unsplash.com/photo-1562046720-654495889645?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60",
+    products: ["onions", "turnips", "broccoli"],
+    image: require("../img/farms/farm-03.jpg")
   },
   {
     id: "4",
-    name: "Farm Four",
+    name: "Fresh & Green",
     address: "Somewhere 23",
     city: "Berlin",
     country: "Germany",
@@ -51,13 +48,12 @@ export const sampleFarms = [
     phone: "123456789",
     email: "farmone@farmone.site",
     website: "farmone.site",
-    products: ["turnips", "lettuces", "pineapples"],
-    image:
-      "https://images.unsplash.com/photo-1486754735734-325b5831c3ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=60",
+    products: ["apples", "lettuces", "pineapples"],
+    image: require("../img/farms/farm-04.jpg")
   },
   {
     id: "5",
-    name: "Farm Five",
+    name: "Uncle George's Farm",
     address: "Somewhere 23",
     city: "Berlin",
     country: "Germany",
@@ -65,13 +61,12 @@ export const sampleFarms = [
     phone: "123456789",
     email: "farmone@farmone.site",
     website: "farmone.site",
-    products: ["garlics", "potatoes", "onions"],
-    image:
-      "https://images.unsplash.com/photo-1585499193151-0f50d54c4e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60",
+    products: ["bell peppers", "cucumbers", "eggplants"],
+    image: require("../img/farms/farm-05.jpg")
   },
   {
     id: "6",
-    name: "Farm Six",
+    name: "Vegan Heaven",
     address: "Somewhere 23",
     city: "Berlin",
     country: "Germany",
@@ -79,13 +74,12 @@ export const sampleFarms = [
     phone: "123456789",
     email: "farmone@farmone.site",
     website: "farmone.site",
-    products: ["garlics", "potatoes", "onions"],
-    image:
-      "https://images.unsplash.com/photo-1585499193151-0f50d54c4e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60",
+    products: ["cauliflowers", "Kale", "Edamame"],
+    image: require("../img/farms/farm-06.jpg")
   },
   {
     id: "7",
-    name: "Farm Seven",
+    name: "McArthur's Valley",
     address: "Somewhere 23",
     city: "Berlin",
     country: "Germany",
@@ -94,12 +88,11 @@ export const sampleFarms = [
     email: "farmone@farmone.site",
     website: "farmone.site",
     products: ["garlics", "potatoes", "onions"],
-    image:
-      "https://images.unsplash.com/photo-1585499193151-0f50d54c4e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60",
+    image: require("../img/farms/farm-07.jpg")
   },
   {
     id: "8",
-    name: "Farm Eight",
+    name: "Fruities",
     address: "Somewhere 23",
     city: "Berlin",
     country: "Germany",
@@ -107,13 +100,12 @@ export const sampleFarms = [
     phone: "123456789",
     email: "farmone@farmone.site",
     website: "farmone.site",
-    products: ["garlics", "potatoes", "onions"],
-    image:
-      "https://images.unsplash.com/photo-1585499193151-0f50d54c4e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60",
+    products: ["oranges", "apples", "kiwis"],
+    image: require("../img/farms/farm-08.jpg")
   },
   {
     id: "9",
-    name: "Farm Nine",
+    name: "The Real Farmville",
     address: "Somewhere 23",
     city: "Berlin",
     country: "Germany",
@@ -121,13 +113,12 @@ export const sampleFarms = [
     phone: "123456789",
     email: "farmone@farmone.site",
     website: "farmone.site",
-    products: ["garlics", "potatoes", "onions"],
-    image:
-      "https://images.unsplash.com/photo-1585499193151-0f50d54c4e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60",
+    products: ["carrots", "potatoes", "tomatoes"],
+    image: require("../img/farms/farm-09.jpg")
   },
   {
     id: "10",
-    name: "Farm Ten",
+    name: "Greenfield's barn",
     address: "Somewhere 23",
     city: "Berlin",
     country: "Germany",
@@ -135,9 +126,7 @@ export const sampleFarms = [
     phone: "123456789",
     email: "farmone@farmone.site",
     website: "farmone.site",
-    products: ["garlics", "potatoes", "onions"],
-    image:
-      "https://images.unsplash.com/photo-1585499193151-0f50d54c4e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60",
-  },
-  
+    products: ["lettuces", "cabbages", "Spinach"],
+    image: require("../img/farms/farm-10.jpg")
+  }
 ];
