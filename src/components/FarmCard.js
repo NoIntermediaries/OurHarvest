@@ -9,6 +9,7 @@ export default function FarmCard(props) {
     image,
     name,
     address,
+    city,
     distance,
     products
   } = props;
@@ -27,6 +28,7 @@ export default function FarmCard(props) {
             </Link>
           <div className="card-content">
             <h6>{address}</h6>
+            <h6>{city}</h6>
             <p>{distance}</p>
             <p>{productSpaced}</p>
           </div>
