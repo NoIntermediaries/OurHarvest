@@ -118,7 +118,7 @@ export const sampleFarms = [
   },
   {
     id: "10",
-    name: "Greenfield's barn",
+    name: "Greenfield's Βarn",
     address: "347 Carfax Road",
     city: "Carfax City",
     country: "UK",
