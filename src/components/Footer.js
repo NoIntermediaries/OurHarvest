@@ -7,7 +7,7 @@ function Footer() {
       <div className="container ">
         <div className="row">
           <div className="col s12">
-            <h5 className="white-text">OUR HARVEST</h5>
+            <h5 className="white-text">OurHarvest</h5>
             <div className="row">
               <div className="col s12">
                 <p>
@@ -29,7 +29,7 @@ function Footer() {
             </div>
 
             <div className="grey-text text-lighten-4 col s4">
-              ©2020 OURHARVEST.All rights reserved.
+              ©2020 OurHarvest.All rights reserved.
             </div>
 
             <div className="col s4">
