@@ -12,12 +12,12 @@ class Contact extends Component {
       email: "",
       message: "",
     };
-    // To ensure this is calling this.handleChange
+
     this.handleChange = this.handleChange.bind(this);
   }
 
-  //Field could be firstname, lastname,phone.email or message
-  //value is the content inputted by the user
+  //Field could be firstname, lastname,phone,email or message
+  //value is the content entered by the user
   handleChange(field, value) {
     this.setState({
       [field]: value,
@@ -28,7 +28,6 @@ class Contact extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
 
-    //for connecting to back-end
     const userN = {
       firstName: this.state.firstName,
       lastName: this.state.lastName,
@@ -41,7 +40,6 @@ class Contact extends Component {
       console.log(res.data);
     });
 
-    //to set the fields blank after submitting
     this.setState({
       firstName: "",
       lastName: "",
